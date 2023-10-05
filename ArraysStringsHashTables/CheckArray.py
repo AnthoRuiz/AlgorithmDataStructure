@@ -10,20 +10,20 @@ def is_unique_brute(s):
 # Optimizing using HashMap O(N) or O(1) because we can have more than
 # 128 Characters, we are going to assume that we are working with ASCII
 def is_unique_hash(s):
-    hash_s = {}
+    set_s = set()
     MAX_ASCII = 128
 
     if len(s) > MAX_ASCII:
         return False
     else:
         for i in range(len(s)):
-            if s[i].lower() in hash_s.keys():
+            if s[i].lower() in set_s:
                 return False
             else:
-                hash_s[s[i].lower()] = s[i]
+                set_s.add(s[i].lower())
 
     return True
 
 
 if __name__ == '__main__':
-    print(is_unique_hash("ABC"))
+    print(is_unique_hash("dHOLA"))
