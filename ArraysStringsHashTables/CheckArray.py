@@ -1,3 +1,14 @@
+
+# To implement an algorithm to determine if a string contains all unique characters. .
+# Input : s = “abcd”
+# Output: True
+# “abcd” doesn’t contain any duplicates. Hence the output is True.
+#
+# Input : s = “abbd”
+# Output: False
+# “abbd” contains duplicates. Hence the output is False.
+
+
 # Brute Force O(N^2)
 def is_unique_brute(s):
     for i in range(len(s)):

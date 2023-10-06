@@ -1,21 +1,13 @@
 <h1 align="center">
-  <a href="https://amazon-clone-martstech.vercel.app/">
-      <img width="200px" src="https://miro.medium.com/v2/resize:fit:1400/1*jCNMstY548-4sTS1Rh2bCQ.png" alt="Amazon Logo" />
-  </a>
+    <img width="400px" src="https://miro.medium.com/v2/resize:fit:1400/1*jCNMstY548-4sTS1Rh2bCQ.png" alt="Amazon Logo" />
   <br />
-  Amazon-clone
-  <h4 align="center">
-    Skype Globe
-  </h4>
+    Data Structure and FAANG Exercises using Python
   <br />
 </h1>
 
-<h4 align="center">
-   Amazon Clone created with React.
-</h4>
-
 ## Array, String, HashMap
-
-> You can check out the full license [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/tree/main/ArraysStringsHashTables)
+- Check String Array is Unique [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/CheckArray.py)
+- Group Anagrams (Leetcode #49) [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/GroupAnagrams.py)
+- Two Sum (Leetcode #1) [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/TwoSum.py)
 
 This project is licensed under the terms of the **MIT** license
