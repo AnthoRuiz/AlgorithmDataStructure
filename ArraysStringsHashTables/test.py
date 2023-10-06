@@ -1,6 +1,7 @@
 import unittest
 from CheckArray import *
 from TwoSum import *
+from GroupAnagrams import *
 
 
 class TestArray(unittest.TestCase):
@@ -31,6 +32,13 @@ class TestArray(unittest.TestCase):
         self.assertEqual(two_sum_dict([9, 5, 1, 23], 100), [])
         self.assertEqual(two_sum_dict([], 100), [])
         self.assertEqual(two_sum_dict([9], 100), [])
+
+    def test_group_anagrams(self):
+        self.assertEqual(group_anagrams(["eat", "tea", "tan", "ate", "nat", "bat"]),
+                         [['eat', 'tea', 'ate'], ['tan', 'nat'], ['bat']])
+
+        self.assertEqual(group_anagrams(['saco', 'arresto', 'programa', 'rastreo', 'caso']),
+                         [['saco', 'caso'], ['arresto', 'rastreo'], ['programa']])
 
 
 if __name__ == '__main__':
