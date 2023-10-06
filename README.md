@@ -11,7 +11,7 @@
 </h1>
 
 <h4 align="center">
-   Amazon Clone created with React</a>.
+   Amazon Clone created with React.
 </h4>
 
 ## Array, String, HashMap
