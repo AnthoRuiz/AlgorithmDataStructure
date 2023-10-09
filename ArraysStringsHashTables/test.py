@@ -2,6 +2,7 @@ import unittest
 from CheckArray import *
 from TwoSum import *
 from GroupAnagrams import *
+from SetMatrixZeroes import *
 
 
 class TestArray(unittest.TestCase):
@@ -39,6 +40,11 @@ class TestArray(unittest.TestCase):
 
         self.assertEqual(group_anagrams(['saco', 'arresto', 'programa', 'rastreo', 'caso']),
                          [['saco', 'caso'], ['arresto', 'rastreo'], ['programa']])
+
+    def test_set_matrix_zeroes(self):
+        self.assertEqual(set_zeroes([[1, 1, 1], [1, 0, 1], [1, 1, 1]]), [[1, 0, 1], [0, 0, 0], [1, 0, 1]])
+        self.assertEqual(set_zeroes([[0, 1, 2, 0], [3, 4, 5, 2], [1, 3, 1, 5]]),
+                         [[0, 0, 0, 0], [0, 4, 5, 0], [0, 3, 1, 0]])
 
 
 if __name__ == '__main__':
