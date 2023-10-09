@@ -48,9 +48,9 @@ class TestArray(unittest.TestCase):
                          [[0, 0, 0, 0], [0, 4, 5, 0], [0, 3, 1, 0]])
 
     def test_reverse_array(self):
-        self.assertEqual(reverse([1, 2, 3, 4, 5]), ([5, 4, 3, 2, 1]))
-        self.assertEqual(reverse([1, 2]), ([2, 1]))
-        self.assertEqual(reverse([1]), ([1]))
+        self.assertEqual(reverse(["h", "e", "l", "l", "o"]), (["o", "l", "l", "e", "h"]))
+        self.assertEqual(reverse(["H", "a", "n", "n", "a", "h"]), (["h", "a", "n", "n", "a", "H"]))
+        self.assertEqual(reverse(['a']), (['a']))
         self.assertEqual(reverse([]), ([]))
 
 

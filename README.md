@@ -10,5 +10,7 @@
 - Group Anagrams (Leetcode #49) [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/GroupAnagrams.py)
 - Two Sum (Leetcode #1) [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/TwoSum.py)
 - Set Matrix Zeroes (Leetcode #73) [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/SetMatrixZeroes.py)
+- Reverse String (Leetcode #344) [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/ReverseArray.py)
+
 
 This project is licensed under the terms of the **MIT** license
