@@ -5,6 +5,7 @@ def set_zeroes(m):
     first_row = False
     ROWS, COLS = len(m), len(m[0])
 
+    # Checking what Row need to be 0
     for r in range(ROWS):
         for c in range(COLS):
             if m[r][c] == 0:
@@ -12,8 +13,10 @@ def set_zeroes(m):
                 if r > 0:
                     m[r][0] = 0
                 else:
+                    # update our first Row to True in case the first row == 0
                     first_row = True
 
+    # Set 0 in the "internal" matrix without the first col and row
     for r in range(1, ROWS):
         for c in range(1, COLS):
             if m[0][c] == 0 or m[r][0] == 0:
@@ -29,6 +32,6 @@ def set_zeroes(m):
 
 
 if __name__ == '__main__':
-    matrix = [[0,1,2,0],[3,4,5,2],[1,3,1,5]]
+    matrix = [[0, 1, 2, 0], [3, 4, 5, 2], [1, 3, 1, 5]]
     print(matrix)
     print(set_zeroes(matrix))
