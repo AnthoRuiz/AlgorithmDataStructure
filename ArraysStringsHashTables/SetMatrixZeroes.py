@@ -30,8 +30,10 @@ def set_zeroes(m):
         for c in range(COLS):
             m[0][c] = 0
 
+    return m
+
 
 if __name__ == '__main__':
-    matrix = [[0, 1, 2, 0], [3, 4, 5, 2], [1, 3, 1, 5]]
+    matrix = [[0,1,2,0],[3,4,5,2],[1,3,1,5]]
     print(matrix)
     print(set_zeroes(matrix))

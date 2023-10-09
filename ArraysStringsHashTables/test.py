@@ -3,6 +3,7 @@ from CheckArray import *
 from TwoSum import *
 from GroupAnagrams import *
 from SetMatrixZeroes import *
+from ReverseArray import *
 
 
 class TestArray(unittest.TestCase):
@@ -45,6 +46,12 @@ class TestArray(unittest.TestCase):
         self.assertEqual(set_zeroes([[1, 1, 1], [1, 0, 1], [1, 1, 1]]), [[1, 0, 1], [0, 0, 0], [1, 0, 1]])
         self.assertEqual(set_zeroes([[0, 1, 2, 0], [3, 4, 5, 2], [1, 3, 1, 5]]),
                          [[0, 0, 0, 0], [0, 4, 5, 0], [0, 3, 1, 0]])
+
+    def test_reverse_array(self):
+        self.assertEqual(reverse([1, 2, 3, 4, 5]), ([5, 4, 3, 2, 1]))
+        self.assertEqual(reverse([1, 2]), ([2, 1]))
+        self.assertEqual(reverse([1]), ([1]))
+        self.assertEqual(reverse([]), ([]))
 
 
 if __name__ == '__main__':
