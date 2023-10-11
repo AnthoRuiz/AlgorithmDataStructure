@@ -6,6 +6,7 @@ from SetMatrixZeroes import *
 from ReverseArray import *
 from Palindrome import *
 from ReverseInteger import *
+from Anagram import *
 
 
 class TestArray(unittest.TestCase):
@@ -64,6 +65,11 @@ class TestArray(unittest.TestCase):
         self.assertEqual(reverse_integer(859), 958)
         self.assertEqual(reverse_integer(1234), 4321)
         self.assertEqual(reverse_integer(8), 8)
+
+    def test_anagram(self):
+        self.assertEqual(is_anagram('anagram', 'nagaram'), True)
+        self.assertEqual(is_anagram('rat', 'car'), False)
+        self.assertEqual(is_anagram('', ' '), False)
 
 
 if __name__ == '__main__':
