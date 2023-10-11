@@ -17,5 +17,6 @@
 - PlusOne (Leetcode #66) [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/PlusOne.py)
 - Climbing Stairs (Leetcode #70) [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/ClimbingStairs.py)
 - Find the Index of the First Occurrence in a String (Leetcode #28) [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/NeedleHaystack.py)
+- Kth Distinct String in an Array (Leetcode #2053) [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/KthDistinct.py)
 
 This project is licensed under the terms of the **MIT** license

@@ -10,6 +10,7 @@ from Anagram import *
 from PlusOne import *
 from ClimbingStairs import *
 from NeedleHaystack import *
+from KthDistinct import *
 
 
 class TestArray(unittest.TestCase):
@@ -88,6 +89,11 @@ class TestArray(unittest.TestCase):
     def test_first_occur(self):
         self.assertEqual(first_occur('sadbutsad', 'sad'), 0)
         self.assertEqual(first_occur('leetcode', 'leeto'), -1)
+
+    def test_k_distinct(self):
+        self.assertEqual(kthDistinct(["d", "b", "c", "b", "c", "a"], 2), 'a')
+        self.assertEqual(kthDistinct(["aaa", "aa", "a"], 1), 'aaa')
+        self.assertEqual(kthDistinct(["a", "b", "a"], 3), "")
 
 
 if __name__ == '__main__':
