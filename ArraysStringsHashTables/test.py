@@ -8,6 +8,7 @@ from Palindrome import *
 from ReverseInteger import *
 from Anagram import *
 from PlusOne import *
+from ClimbingStairs import *
 
 
 class TestArray(unittest.TestCase):
@@ -76,6 +77,12 @@ class TestArray(unittest.TestCase):
         self.assertEqual(plus_one([1, 2, 3]), [1, 2, 4])
         self.assertEqual(plus_one([4, 3, 2, 1]), [4, 3, 2, 2])
         self.assertEqual(plus_one([9]), [1, 0])
+
+    def test_climbing_stairs(self):
+        self.assertEqual(climbing_stairs(3), 3)
+        self.assertEqual(climbing_stairs(4), 5)
+        self.assertEqual(climbing_stairs(5), 8)
+        self.assertEqual(climbing_stairs(1), 1)
 
 
 if __name__ == '__main__':
