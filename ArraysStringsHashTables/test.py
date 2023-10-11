@@ -4,6 +4,8 @@ from TwoSum import *
 from GroupAnagrams import *
 from SetMatrixZeroes import *
 from ReverseArray import *
+from Palindrome import *
+from ReverseInteger import *
 
 
 class TestArray(unittest.TestCase):
@@ -52,6 +54,16 @@ class TestArray(unittest.TestCase):
         self.assertEqual(reverse(["H", "a", "n", "n", "a", "h"]), (["h", "a", "n", "n", "a", "H"]))
         self.assertEqual(reverse(['a']), (['a']))
         self.assertEqual(reverse([]), ([]))
+
+    def test_palindrome(self):
+        self.assertEqual(is_palindrome('radar'), True)
+        self.assertEqual(is_palindrome('aaaa'), True)
+        self.assertEqual(is_palindrome('car'), False)
+
+    def test_reverse_int(self):
+        self.assertEqual(reverse_integer(859), 958)
+        self.assertEqual(reverse_integer(1234), 4321)
+        self.assertEqual(reverse_integer(8), 8)
 
 
 if __name__ == '__main__':
