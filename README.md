@@ -13,5 +13,6 @@
 - Reverse String (Leetcode #344) [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/ReverseArray.py)
 - Palindrome (Leetcode #125) [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/Palindrome.py)
 - Reverse Integer (Leetcode #7) [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/ReverseInteger.py)
+- Valid Anagram (Leetcode #242) [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/Anagram.py)
 
 This project is licensed under the terms of the **MIT** license
