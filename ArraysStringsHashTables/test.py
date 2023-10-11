@@ -9,6 +9,7 @@ from ReverseInteger import *
 from Anagram import *
 from PlusOne import *
 from ClimbingStairs import *
+from NeedleHaystack import *
 
 
 class TestArray(unittest.TestCase):
@@ -83,6 +84,10 @@ class TestArray(unittest.TestCase):
         self.assertEqual(climbing_stairs(4), 5)
         self.assertEqual(climbing_stairs(5), 8)
         self.assertEqual(climbing_stairs(1), 1)
+
+    def test_first_occur(self):
+        self.assertEqual(first_occur('sadbutsad', 'sad'), 0)
+        self.assertEqual(first_occur('leetcode', 'leeto'), -1)
 
 
 if __name__ == '__main__':
