@@ -7,6 +7,7 @@ from ReverseArray import *
 from Palindrome import *
 from ReverseInteger import *
 from Anagram import *
+from PlusOne import *
 
 
 class TestArray(unittest.TestCase):
@@ -70,6 +71,11 @@ class TestArray(unittest.TestCase):
         self.assertEqual(is_anagram('anagram', 'nagaram'), True)
         self.assertEqual(is_anagram('rat', 'car'), False)
         self.assertEqual(is_anagram('', ' '), False)
+
+    def test_plus_one(self):
+        self.assertEqual(plus_one([1, 2, 3]), [1, 2, 4])
+        self.assertEqual(plus_one([4, 3, 2, 1]), [4, 3, 2, 2])
+        self.assertEqual(plus_one([9]), [1, 0])
 
 
 if __name__ == '__main__':
