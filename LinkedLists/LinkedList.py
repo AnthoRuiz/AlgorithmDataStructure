@@ -106,11 +106,63 @@ class LinkedList:
                 # remove an internal node by updating the pointers
                 previous_node.next_node = actual_node.next_node
 
+    def insert_at(self, data, idx):
+
+        if idx < 1:
+            print('out of bounding')
+
+        else:
+            self.num_of_nodes += 1
+            new_node = Node(data)
+
+            if idx == 1:
+                new_node.next_node = self.head
+                self.head = new_node
+            else:
+                i = 1
+                actual_node = self.head
+                previous_node = None
+                while actual_node is not None and i < idx:
+                    previous_node = actual_node
+                    actual_node = actual_node.next_node
+                    i += 1
+
+                if actual_node is not None:
+                    previous_node.next_node = new_node
+                    new_node.next_node = actual_node
+                else:
+                    previous_node.next_node = new_node
+
+    def reverse(self):
+        actual_node = self.head
+        next_node = actual_node.next_node
+        previous_node = None
+
+        while next_node is not None:
+            actual_node.next_node = previous_node
+            previous_node = actual_node
+            actual_node = next_node
+            next_node = next_node.next_node
+
+        actual_node.next_node = previous_node
+        self.head = actual_node
+
+    def get_middle_node(self):
+        mid = self.num_of_nodes / 2
+        i = 1
+        actual_node = self.head
+        while i < mid:
+            actual_node = actual_node.next_node
+            i += 1
+        return actual_node
+
 
 if __name__ == '__main__':
     linked = LinkedList()
-    linked.insert_start(1)
-    linked.insert_start(2)
-    linked.insert_start(3)
-    linked.insert_start(4)
+    linked.insert_end(1)
+    linked.insert_end(2)
+    linked.insert_end(3)
+    linked.insert_end(4)
     linked.traverse()
+    print(linked.get_middle_node())
+
