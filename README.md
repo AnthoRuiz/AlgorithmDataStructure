@@ -19,4 +19,9 @@
 - Find the Index of the First Occurrence in a String (Leetcode #28) [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/NeedleHaystack.py)
 - Kth Distinct String in an Array (Leetcode #2053) [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/KthDistinct.py)
 
+## Linked List, Doubly Linked List, Stacks and Queues
+- Linked List Implementation [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/LinkedLists/LinkedList.py)
+- Doubly Linked List Implementation [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/DoublyLinkedList/DoublyLinkedList.py)
+
+
 This project is licensed under the terms of the **MIT** license
