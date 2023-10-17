@@ -5,6 +5,8 @@
   <br />
 </h1>
 
+<a name="readme-top"></a>
+
 ## Array, String, HashMap
 - Check String Array is Unique [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/CheckArray.py)
 - Group Anagrams (Leetcode #49) [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/GroupAnagrams.py)
@@ -19,9 +21,30 @@
 - Find the Index of the First Occurrence in a String (Leetcode #28) [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/NeedleHaystack.py)
 - Kth Distinct String in an Array (Leetcode #2053) [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/KthDistinct.py)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Linked List, Doubly Linked List, Stacks and Queues
 - Linked List Implementation [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/LinkedLists/LinkedList.py)
+  - **This Implementation contains the follow features**:
+  - insert_start() &rarr; O(1) 
+  - insert_end() &rarr; O(N) 
+  - traverse() &rarr; O(N)
+  - remove_first &rarr; O(1)
+  - remove_end &rarr; O(N)
+  - remove(element_to_remove) &rarr; O(N)
+  - insert_at(element, index) &rarr; O(N)
+  - reverse() &rarr; O(N)
+  - get_middle_node() &rarr; O(N)
+<br>
+<br>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 - Doubly Linked List Implementation [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/DoublyLinkedList/DoublyLinkedList.py)
+  - **This Implementation contains the follow features**:
+  - traverse_forward() &rarr; O(N) 
+  - traverse_backward() &rarr; O(N) 
+  - insert_end() &rarr; O(1)
+  - insert_start() &rarr; O(1)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 This project is licensed under the terms of the **MIT** license
