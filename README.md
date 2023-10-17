@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img width="400px" src="https://miro.medium.com/v2/resize:fit:1400/1*jCNMstY548-4sTS1Rh2bCQ.png" alt="Amazon Logo" />
+    <img width="600px" src="https://miro.medium.com/v2/resize:fit:1400/1*jCNMstY548-4sTS1Rh2bCQ.png" alt="Amazon Logo" />
   <br />
     Data Structure and FAANG Exercises using Python
   <br />

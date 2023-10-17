@@ -165,4 +165,3 @@ if __name__ == '__main__':
     linked.insert_end(4)
     linked.traverse()
     print(linked.get_middle_node())
-
