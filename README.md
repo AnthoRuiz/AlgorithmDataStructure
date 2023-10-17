@@ -47,4 +47,11 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+- Stack Implementation Using Array [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/StackQueue/Stack.py)
+- Queue Implementation Using Array [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/StackQueue/Queue.py)
+- Get MaxValue of a Stack using an auxiliary stack [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/StackQueue/MaxStack.py)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 This project is licensed under the terms of the **MIT** license
