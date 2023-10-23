@@ -22,6 +22,7 @@
 - Kth Distinct String in an Array **(Leetcode #2053)** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/KthDistinct.py)
 - String Compression **(Leetcode #443)** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/StringCompression.py)
 - Move Zeroes **(Leetcode #443)** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/MoveZeroes.py)
+- Buddy String **(Leetcode #443)** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/BuddyStrings.py)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
