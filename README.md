@@ -23,6 +23,7 @@
 - String Compression **(Leetcode #443)** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/StringCompression.py)
 - Move Zeroes **(Leetcode #443)** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/MoveZeroes.py)
 - Buddy String **(Leetcode #443)** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/BuddyStrings.py)
+- Longest Common Subsequence (P.D)**(Leetcode #1143)** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/LongestCommonSubsequence.py)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
