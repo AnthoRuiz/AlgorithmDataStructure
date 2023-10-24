@@ -57,5 +57,15 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Binary Search Tree (BST), AVL Tree, Red-Black Tree and Heaps
+- BST [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/BinarySearchTree/BinarySearchTree.py)
+  - This Implementation contains the follow features:
+  - insert &rarr; **O(long(N))**
+  - get_max &rarr; **O(long(N))**
+  - get_min &rarr; **O(long(N))**
+  - in_order() &rarr; **O(N)**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 This project is licensed under the terms of the **MIT** license
