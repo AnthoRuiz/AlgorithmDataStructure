@@ -25,6 +25,7 @@
 - Buddy String **(Leetcode #443)** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/BuddyStrings.py)
 - Longest Common Subsequence (P.D)**(Leetcode #1143)** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/LongestCommonSubsequence.py)
 - Coin Change (P.D)**(Leetcode #322)** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/CoinChange.py)
+- HouseRobber (P.D)**(Leetcode #198)** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/HouseRobber.py)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
