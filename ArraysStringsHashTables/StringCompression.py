@@ -37,3 +37,4 @@ def compress(chars):
 
 if __name__ == '__main__':
     print(compress(["a", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b"]))
+    print(string_compression(["a", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b"]))

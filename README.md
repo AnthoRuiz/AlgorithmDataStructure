@@ -28,6 +28,9 @@
 - HouseRobber (P.D)**(Leetcode #198)** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/HouseRobber.py)
 - Fibonacci and Tribonacci **(Leetcode #1137, #509)** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/Fibonacci.py)
 - Best Time to Buy and Sell Stock (Sliding Window) **(Leetcode #121)** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/MaxProfit.py)
+- Isomorphic Strings **(Leetcode #205)** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/IsomorphicStrings.py)
+- Word Pattern **(Leetcode #290)** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/WordPattern.py)
+- Roman to Int, Int to Roman **(Leetcode #13, #12)** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/RomanToInteger.py)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
