@@ -35,8 +35,13 @@
 - Word Break **(Leetcode #139)** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/WordBreak.py)
 - Concatenation Of Array **(Leetcode #1929)** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/ConcatenationOfArray.py)
 - Remove Element **(Leetcode #27)** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/RemoveElement.py)
-- IsSubsequence **(Leetcode #392)** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/IsSubsequence.py)
-- 
+- Is Subsequence **(Leetcode #392)** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/IsSubsequence.py)
+- Counting Bits **(Leetcode #338)** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/CountingBits.py)
+- Length Of Last Word **(Leetcode #58)** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/LengthofLastWord.py)
+- Min Cost Climbing Stairs **(Leetcode #746)** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/MinCostClimbingStairs.py)
+- Single Number **(Leetcode #136)** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/SingleNumber.py)
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Linked List, Doubly Linked List, Stacks and Queues
