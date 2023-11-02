@@ -1,0 +1,26 @@
+def findAllConcatenatedWordsInADict(words):
+    word_set = set(words)
+    dp = {}
+
+    def dfs(word):
+        if word in dp:
+            return dp[word]
+        for i in range(1, len(word)):
+            prefix = word[:i]
+            suffix = word[i:]
+            if (prefix in word_set and suffix in word_set) or (prefix in word_set and dfs(suffix)):
+                dp[word] = True
+                return dp[word]
+
+        dp[word] = False
+        return dp[word]
+
+    res = []
+    for w in words:
+        if dfs(w):
+            res.append(w)
+    return res
+
+
+if __name__ == '__main__':
+    print(findAllConcatenatedWordsInADict(["cat","cats","catsdogcats","dog","dogcatsdog","hippopotamuses","rat","ratcatdogcat"]))
