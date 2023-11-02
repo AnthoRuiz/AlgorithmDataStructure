@@ -31,6 +31,8 @@
 - Isomorphic Strings **(Leetcode #205)** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/IsomorphicStrings.py)
 - Word Pattern **(Leetcode #290)** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/WordPattern.py)
 - Roman to Int, Int to Roman **(Leetcode #13, #12)** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/RomanToInteger.py)
+- Concatenated Words **(Leetcode #472)** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/ConcatenatedWords.py)
+- Word Break **(Leetcode #139)** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/WordBreak.py)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
