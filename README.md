@@ -34,7 +34,7 @@
 - Concatenated Words **(Leetcode #472)** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/ConcatenatedWords.py)
 - Word Break **(Leetcode #139)** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/WordBreak.py)
 - Concatenation Of Array **(Leetcode #1929)** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/ConcatenationOfArray.py)
-
+- Remove Element **(Leetcode #27)** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/RemoveElement.py)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
