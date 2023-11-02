@@ -35,7 +35,8 @@
 - Word Break **(Leetcode #139)** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/WordBreak.py)
 - Concatenation Of Array **(Leetcode #1929)** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/ConcatenationOfArray.py)
 - Remove Element **(Leetcode #27)** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/RemoveElement.py)
-
+- IsSubsequence **(Leetcode #392)** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/IsSubsequence.py)
+- 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Linked List, Doubly Linked List, Stacks and Queues
