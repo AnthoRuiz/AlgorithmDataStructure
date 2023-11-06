@@ -40,6 +40,11 @@
 - Length Of Last Word **(Leetcode #58)** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/LengthofLastWord.py)
 - Min Cost Climbing Stairs **(Leetcode #746)** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/MinCostClimbingStairs.py)
 - Single Number **(Leetcode #136)** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/SingleNumber.py)
+- Pascal Triangle **(Leetcode #118 )** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/PascalTriangle.py)
+- Merge Sorted Array **(Leetcode #88 )** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/MergeSortedArray.py)
+- Majority Element **(Leetcode #169 )** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/MajorityElement.py)
+- Contains Duplicate **(Leetcode #217 )** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/ContainsDuplicate.py)
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
