@@ -83,9 +83,13 @@
 - BST [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/BinarySearchTree/BinarySearchTree.py)
   - This Implementation contains the follow features:
   - insert &rarr; **O(long(N))**
+  - remove &rarr; **O(H) H is the Height of the tree**
   - get_max &rarr; **O(long(N))**
   - get_min &rarr; **O(long(N))**
   - in_order() &rarr; **O(N)**
+  - pre_order() &rarr; **O(N)**
+  - post_order() &rarr; **O(N)**
+  - is_valid_BST **(Leetcode #98 )** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/BinarySearchTree/BinarySearchTree.py)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
