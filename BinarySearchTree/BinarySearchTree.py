@@ -151,6 +151,18 @@ class BinarySearchTree:
         else:
             return self.post_order(root.left_node) + self.post_order(root.right_node) + [root.data]
 
+    def valid(self, node, left, right):
+        if not node:
+            return True
+        if not (right > node.data > left):
+            return False
+
+        return (self.valid(node.left_node, left, node.data) and
+                self.valid(node.right_node, node.data, right))
+
+    def is_valid(self):
+        return self.valid(self.root, float("-inf"), float('inf'))
+
 
 # Inorder => Left, Root, Right.
 #
@@ -168,8 +180,10 @@ if __name__ == '__main__':
     bst.insert(-5)
     bst.insert(44)
 
-    bst.remove(8)
-    bst.remove(10)
-    bst.remove(12)
+    print(bst.is_valid())
 
-    print(bst.in_order(bst.root))
+    # bst.remove(8)
+    # bst.remove(10)
+    # bst.remove(12)
+    #
+    # print(bst.in_order(bst.root))
