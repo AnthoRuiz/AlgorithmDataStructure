@@ -90,6 +90,7 @@
   - pre_order() &rarr; **O(N)**
   - post_order() &rarr; **O(N)**
   - is_valid_BST **(Leetcode #98 )** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/BinarySearchTree/BinarySearchTree.py#L154)
+  - Same Tree **(Leetcode #100 )** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/BinarySearchTree/TreeComparator.py)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
