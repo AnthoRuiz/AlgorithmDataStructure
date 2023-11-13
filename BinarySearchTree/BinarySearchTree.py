@@ -40,33 +40,6 @@ class BinarySearchTree:
             return self.get_max_value(node.right_node)
         return node.data
 
-    def traverse_in_order(self, node):
-        if node.left_node:
-            self.traverse_in_order(node.left_node)
-
-        print(node.data)
-
-        if node.right_node:
-            self.traverse_in_order(node.right_node)
-
-    def traverse_pre_order(self, node):
-        print(node.data)
-
-        if node.left_node:
-            self.traverse_pre_order(node.left_node)
-
-        if node.right_node:
-            self.traverse_pre_order(node.right_node)
-
-    def traverse_post_order(self, node):
-        if node.left_node:
-            self.traverse_post_order(node.left_node)
-
-        if node.right_node:
-            self.traverse_post_order(node.right_node)
-
-        print(node.data)
-
     def insert(self, data):
         # first Node in the BST
         if self.root is None:
@@ -160,17 +133,23 @@ class BinarySearchTree:
         if self.root:
             return self.get_max_value(self.root)
 
-    def in_order(self):
-        if self.root:
-            self.traverse_in_order(self.root)
+    def in_order(self, root):
+        if root is None:
+            return []
+        else:
+            return self.in_order(root.left_node) + [root.data] + self.in_order(root.right_node)
 
-    def pre_order(self):
-        if self.root:
-            self.traverse_pre_order(self.root)
+    def pre_order(self, root):
+        if root is None:
+            return []
+        else:
+            return [root.data] + self.pre_order(root.left_node) + self.pre_order(root.right_node)
 
-    def post_order(self):
-        if self.root:
-            self.traverse_post_order(self.root)
+    def post_order(self, root):
+        if root is None:
+            return []
+        else:
+            return self.post_order(root.left_node) + self.post_order(root.right_node) + [root.data]
 
 
 # Inorder => Left, Root, Right.
@@ -193,8 +172,4 @@ if __name__ == '__main__':
     bst.remove(10)
     bst.remove(12)
 
-    bst.remove(44)
-    bst.remove(5)
-    bst.remove(-5)
-
-    bst.in_order()
+    print(bst.in_order(bst.root))
