@@ -95,6 +95,7 @@
 - AVL Tree [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/BinarySearchTree/AVLTree.py)
   - This Implementation contains the follow features:
   - insert
+  - remove
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
