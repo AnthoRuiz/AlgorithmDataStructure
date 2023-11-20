@@ -96,6 +96,7 @@
   - This Implementation contains the follow features:
   - insert
   - remove
+  - in_order
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
