@@ -46,6 +46,7 @@
 - Contains Duplicate **(Leetcode #217 )** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/ContainsDuplicate.py)
 - Island Perimeter **(Leetcode #463 )** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/IslandPerimeter.py)
 - Flood Fill **(Leetcode #733 )** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/FloodFill.py)
+- Remove DuplicatesArray **(Leetcode #26 )** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/RemoveDuplicatesArray.py)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
