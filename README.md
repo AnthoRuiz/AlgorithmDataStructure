@@ -47,6 +47,7 @@
 - Island Perimeter **(Leetcode #463 )** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/IslandPerimeter.py)
 - Flood Fill **(Leetcode #733 )** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/FloodFill.py)
 - Remove DuplicatesArray **(Leetcode #26 )** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/RemoveDuplicatesArray.py)
+- Happy Number **(Leetcode #202 )** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/IsHappy.py)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
