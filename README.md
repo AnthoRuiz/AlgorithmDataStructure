@@ -48,6 +48,7 @@
 - Flood Fill **(Leetcode #733 )** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/FloodFill.py)
 - Remove DuplicatesArray **(Leetcode #26 )** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/RemoveDuplicatesArray.py)
 - Happy Number **(Leetcode #202 )** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/IsHappy.py)
+- Summary Ranges **(Leetcode #228 )** [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/ArraysStringsHashTables/SummaryRanges.py)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
