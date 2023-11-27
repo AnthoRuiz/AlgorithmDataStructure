@@ -62,6 +62,7 @@
   - remove(element_to_remove) &rarr; **O(N)**
   - insert_at(element, index) &rarr; **O(N)**
   - reverse() &rarr; **O(N)**
+  - reverse_between() **(Leetcode #92 )**
   - get_middle_node() &rarr; **O(N)**
   
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

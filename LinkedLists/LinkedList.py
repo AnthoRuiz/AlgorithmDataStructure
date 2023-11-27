@@ -147,6 +147,26 @@ class LinkedList:
         actual_node.next_node = previous_node
         self.head = actual_node
 
+    def reverse_between(self, left, right):
+        dummy = Node(0)
+        dummy.next_node = self.head
+
+        p_left, c = dummy, self.head
+        for i in range(left - 1):
+            p_left, c = c, c.next_node
+
+        prev = None
+        for i in range(right - left + 1):
+            tmp = c.next_node
+            c.next_node = prev
+            prev = c
+            c = tmp
+
+        p_left.next_node.next_node = c
+        p_left.next_node = prev
+
+        self.head = dummy.next_node
+
     def get_middle_node(self):
         mid = self.num_of_nodes / 2
         i = 1
@@ -163,5 +183,8 @@ if __name__ == '__main__':
     linked.insert_end(2)
     linked.insert_end(3)
     linked.insert_end(4)
+    linked.insert_end(5)
+    # linked.traverse()
+    linked.reverse_between(2, 4)
     linked.traverse()
-    print(linked.get_middle_node())
+
