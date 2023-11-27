@@ -100,6 +100,11 @@
   - remove
   - in_order
 
+- Red Black Tree [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/BinarySearchTree/RedBlackTree.py)
+  - This Implementation contains the follow features:
+  - insert
+  - in_order
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
