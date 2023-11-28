@@ -98,14 +98,21 @@
 
 - AVL Tree [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/BinarySearchTree/AVLTree.py)
   - This Implementation contains the follow features:
-  - insert
-  - remove
-  - in_order
+  - insert()
+  - remove()
+  - in_order()
 
 - Red Black Tree [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/BinarySearchTree/RedBlackTree.py)
   - This Implementation contains the follow features:
-  - insert
-  - in_order
+  - insert()
+  - in_order()
+
+- Heap [here](https://github.com/AnthoRuiz/AlgorithmDataStructure/blob/main/BinarySearchTree/Heap.py)
+  - This Implementation contains the follow features:
+  - insert()
+  - get_max()
+  - poll()
+  - heap_sort()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
