@@ -113,6 +113,7 @@
   - get_max()
   - poll()
   - heap_sort()
+  - check_max_heap()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

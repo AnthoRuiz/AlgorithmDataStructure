@@ -8,7 +8,7 @@ class Heap:
         # this is the actual number of items in the data structure
         self.heap_size = 0
         # the underlying list data structure
-        self.heap = [0]*CAPACITY
+        self.heap = [0] * CAPACITY
 
     # O(logN)
     def insert(self, item):
@@ -21,14 +21,14 @@ class Heap:
         self.heap_size = self.heap_size + 1
 
         # check the heap properties
-        self.fix_up(self.heap_size-1)
+        self.fix_up(self.heap_size - 1)
 
     # starting with the actual node we have inserted up to root node
     # we have to compare the values whether to make swap operations
     # logN it has O(logN) running time complexity
     def fix_up(self, index):
 
-        parent_index = (index-1)//2
+        parent_index = (index - 1) // 2
 
         # we consider all the items above till we hit the root node
         # if heap property if violated then we swap the parent-child
@@ -88,18 +88,30 @@ class Heap:
             max_item = self.poll()
             print(max_item)
 
+    def check_max_heap(self):
+        if self.heap_size < 1:
+            return True
+
+        if self.heap_size == 2:
+            return self.heap[0] < self.heap[1]
+
+        num_roots = (self.heap_size - 2) // 2
+
+        for i in range(num_roots):
+            if self.heap[i] < self.heap[2 * i + 1] or self.heap[i] < self.heap[2 * i + 2]:
+                return False
+        return True
+
 
 if __name__ == '__main__':
-
     heap = Heap()
-    heap.insert(13)
-    heap.insert(-2)
-    heap.insert(0)
-    heap.insert(8)
-    heap.insert(8)
-    heap.insert(1)
-    heap.insert(-5)
-    heap.insert(99)
-    heap.insert(99)
+    heap.insert(2)
+    heap.insert(4)
+    heap.insert(10)
+    heap.insert(6)
+    heap.insert(11)
+    heap.insert(15)
+    heap.insert(30)
 
-    heap.heap_sort()
+    print(heap.heap)
+    print(heap.check_max_heap())
